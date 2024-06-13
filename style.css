@@ -1,0 +1,55 @@
+body{
+    background-color:aqua;
+}
+.main{
+    justify-content:center;
+    text-align: center;
+}
+/* .logo-text{
+    width: 20vh;
+    margin: 0px 10px;
+} */
+.contact-details{
+    display: flex;
+    margin-left:500px;
+    padding-top:10px;
+    width: 400px;
+}
+.logo-display{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:10px;
+    margin: 5px;
+    border-radius: 100%;
+    background-color: white;
+    height: 12vh;
+    width: 12vh;
+}
+.text-display{
+   margin-top: 100px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+   color:chocolate;
+}
+h2{
+    text-transform: capitalize;
+    color: chocolate;
+}
+.inputform{
+    margin-top:10px;
+}
+.inputs{
+    background-color: lightgrey;
+    padding: 8px;
+    border-style:none;
+}
+.sendmsg{
+    background-color:chocolate;
+    color:black;
+    text-transform:uppercase;
+    padding:10px;
+    font-weight:bold;
+    font-size:20px;
+    width:108vh;
+}
