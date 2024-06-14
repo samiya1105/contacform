@@ -1,43 +1,42 @@
 body{
-    background-color:aqua;
+    background-color:black;
 }
 .main{
     justify-content:center;
     text-align: center;
 }
-/* .logo-text{
-    width: 20vh;
-    margin: 0px 10px;
-} */
+.container{
+    display: flex;
+    justify-content: center;
+}
 .contact-details{
     display: flex;
-    margin-left:500px;
-    padding-top:10px;
-    width: 400px;
+    margin-left:50px;
+    /* padding-top:10px; */
+    width: 20vh;
+    text-align: center;
 }
+
 .logo-display{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
     padding:10px;
     margin: 5px;
-    border-radius: 100%;
-    background-color: white;
-    height: 12vh;
-    width: 12vh;
-}
-.text-display{
-   margin-top: 100px;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 15px;
-   color:chocolate;
+    border-radius: 50%;
+    background-color:white;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 300;
+    color:aqua;
 }
 h2{
     text-transform: capitalize;
     color: chocolate;
 }
 .inputform{
-    margin-top:10px;
+    margin-top:120px;
+    justify-content: center;
 }
 .inputs{
     background-color: lightgrey;
