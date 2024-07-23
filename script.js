@@ -56,7 +56,7 @@ function ContactValidate(){
         document.getElementById('emailid').innerHTML="";
     }
     
-    //password 
+    //password-validation
     if(p1==null || p1==""){
 		document.getElementById('pass1').innerHTML ="Please fill the Password field";
 		return false;
@@ -69,7 +69,7 @@ function ContactValidate(){
         document.getElementById('pass1').innerHTML="";
     }
 
-    //confirm-password
+    //confirm-password-validation
     if(p2==null || p2==""){
 		document.getElementById('pass1').innerHTML ="Please fill the Password field";
 		return false;
