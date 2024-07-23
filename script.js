@@ -56,7 +56,7 @@ function ContactValidate(){
         document.getElementById('emailid').innerHTML="";
     }
     
-    //password-validation
+    //password-validation.
     if(p1==null || p1==""){
 		document.getElementById('pass1').innerHTML ="Please fill the Password field";
 		return false;
